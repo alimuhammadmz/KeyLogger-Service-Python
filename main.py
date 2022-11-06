@@ -46,7 +46,6 @@ def onKeyRelease(key):
         if (key == keyboard.Key.end):
             print("Exitted")
             generateAlert()
-
             return False
         if AttributeError:
             print("- FunctionKey")
